@@ -1,18 +1,60 @@
-* {
-  box-sizing: border-box;
+/* CSS стиль для центрування кнопок */
+.buttons-container {
+  display: flex;
+  justify-content: center; /* Горизонтальне центрування */
+  margin-top: 20px; /* Відступ зверху (можна налаштувати за потребою) */
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
-  color: #212121;
-  line-height: 1.5;
+button[data-start],
+button[data-stop] {
+  /* Стилі для кнопок, які ви вже маєте */
+  margin: 0 10px; /* Відступ між кнопками (можна налаштувати за потребою) */
 }
 
-img {
-  display: block;
-  max-width: 100%;
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+.count-particles {
+  -webkit-user-select: none;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
 }
