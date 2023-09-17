@@ -21,7 +21,8 @@
     "flatpickr": "^4.6.13",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.6",
-    "particles.js": "^2.0.0"
+    "particles.js": "^2.0.0",
+    "stats.js": "^0.17.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
