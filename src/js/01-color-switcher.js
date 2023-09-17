@@ -1,14 +1,8 @@
-'use strict';
-
 import 'particles.js';
-import 'stats.js';
 
 const btnStartColor = document.querySelector('button[data-start]');
 const btnStopColor = document.querySelector('button[data-stop]');
 const bodyEl = document.querySelector('body');
-
-btnStartColor.classList.add('btnStart');
-btnStopColor.classList.add('btnStop');
 
 let isRunning = false;
 let intervalId = null;
