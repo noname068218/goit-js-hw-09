@@ -1,7 +1,3 @@
-import 'particles.js';
-import '@babel/core';
-import '@babel/preset-env';
-
 const btnStartColor = document.querySelector('button[data-start]');
 const btnStopColor = document.querySelector('button[data-stop]');
 const bodyEl = document.querySelector('body');
