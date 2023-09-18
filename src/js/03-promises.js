@@ -70,3 +70,4 @@ function handlerForm(event) {
       Notiflix.Notify.failure('At least one promise rejected');
     });
 }
+const hello = console.log('hello');
